@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+
+    <title>Document</title>
+</head>
+<body>
+    <h2>HR Questions</h2>
+
+<button class="accordion">Tell me about yourself.</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Why should I hire you?</button>
+<div class="panel">
+  <p>Being a fresher, I think I am very flexible and adaptive to learn new things. This gives me to explore my potential by giving my best to the organization. My previous semester project has taught me how to be a good team player and work in unity. I am sure that this valuable quality will help me further.</p>
+</div>
+
+<button class="accordion">Strength & Weakness</button>
+<div class="panel">
+  <p>Strength: I am quick learner, always keep myself motivated and am adaptive to any environment.<br/>
+
+    Weakness: Currently I don't have any weakness. I always try to overcome my weaknesses.</p>
+</div>
+
+<button class="accordion">Why do you want to work at our company? or career options</button>
+<div class="panel">
+  <p>I want to work in a reputed company. If I will join your company so this is my first start to carrier and improve my knowledge and I believe that my senior and sir/mam in your company will help me to improve my skills. Now, I have no experience so it is very helpful me for gain knowledge and improve communication skills so I did choose your company.</p>
+</div>
+
+<button class="accordion">Why are you applying for this job? (or)
+    Why this role attract you?</button>
+<div class="panel">
+  <p> Mam, it's a great privilege to work in a reputed company like yours. When I read about your requirement, I found that my skills are matching with them. Through this role, I can show my technical skills to contribute to the company growth.</p>
+</div>
+
+<button class="accordion">What are your salary expectations?</button>
+<div class="panel">
+  <p>As I am fresher, Salary is not an issue for me. Learning and gaining experience is my major priority. As your company is one of the most reputed company, I just accept the salary offered by you is the best in the industry.</p>
+</div>
+
+<button class="accordion">How do you handle stress and pressure?</button>
+<div class="panel">
+  <p>
+    I believe some stress is good to keep challenging oneself and that completely works in my stride.
+  </p>
+</div>
+
+<button class="accordion">How would you rate yourself on a scale of 1 to 10?</button>
+<div class="panel">
+  <p>
+    I would like to rate myself an 8. 8 because I know that I am not perfect and there is always a scope for learning and improvement. Continuous learning is the most fundamental part of personal and professional growth.
+  </p>
+</div>
+
+<button class="accordion">Where do you see yourself in 5 years?</button>
+<div class="panel">
+  <p>
+    Over 5 years, I would love to utilize all the opportunities that this company provides me to learn by utilizing the internal and external training programs.
+
+  </p>
+</div>
+
+<button class="accordion">What do you know about this organization?</button>
+<div class="panel">
+  <p>
+    Appinventiv is a leading global App Development Company. To be a quality oriented universal player in mobile application, web design & development and product based solutions.
+    A leading global Mobile App Development Firm empowering startups & Fortune 500 Companies to bridge the gap between ideas and reality.
+  </p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+    
+</body>
+</html>
