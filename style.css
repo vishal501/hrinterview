@@ -28,3 +28,7 @@ body{
   .height{
     margin-bottom: 500px;
   }
+
+  i{
+    color: #000;
+  }
